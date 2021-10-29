@@ -1,0 +1,33 @@
+html {
+  color: white;
+}
+header {
+  background-color: white;
+  display: flex;
+  padding: 2rem 1rem 2rem 1rem;
+  color: #A8896C;
+}
+header > * {
+  flex-grow: 3;
+}
+body {
+  background-color: rgb(39, 34, 34);
+}
+#intro {
+  background-image: url(/images/auto.jpg);
+  padding: 15rem;
+  background-repeat: no-repeat;
+}
+.box {
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  position: relative;
+  top: -180px;
+}
+h1 {
+font-size: 3rem;
+}
+
+h2 {
+font-size: 2rem;
+}
