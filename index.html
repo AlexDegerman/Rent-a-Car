@@ -11,9 +11,8 @@
   </head>
   <body>
     <header>
-       
       <ul id="nav">
-        <figure><img  id="logo" src="/images/logo.png" alt=""></figure>
+        <figure><img id="logo" src="/images/logo.png" alt="" /></figure>
         <li>Koti</li>
         <li>Autot</li>
         <li>Vuokraa</li>
@@ -27,23 +26,102 @@
       </section>
     </section>
     <section id="autot">
-        <h1>Autot</h1>
-        <section class="gallery">
-            <figure><img src="/images/2021-audi-a6.png" alt=""></figure>
-            <figure><img src="/images/2021-BMW-5-Series.png" alt=""></figure>
-            <figure><img src="/images/2021-Genesis-G80.png" alt=""></figure>
-            <figure><img src="/images/2021-lexus-es350.png" alt=""></figure>
-            <figure><img src="/images/2021-mercedes-benz-e-450.png" alt=""></figure>
-            <figure><img src="/images/2021-volvo-s90.jpg" alt=""></figure>
-          </section>
-          <h2>javascriptillä tehdään kun clickkaa kuvaa nii avaa pienen popup ikkunan isommalla kuvalla ja auton tiedoilla</h2>
+      <h1>Autot</h1>
+      <section class="gallery">
+        <figure><img src="/images/2021-audi-a6.png" alt="" /></figure>
+        <figure><img src="/images/2021-BMW-5-Series.png" alt="" /></figure>
+        <figure><img src="/images/2021-Genesis-G80.png" alt="" /></figure>
+        <figure><img src="/images/2021-lexus-es350.png" alt="" /></figure>
+        <figure>
+          <img src="/images/2021-mercedes-benz-e-450.png" alt="" />
+        </figure>
+        <figure><img src="/images/2021-volvo-s90.jpg" alt="" /></figure>
+      </section>
+      <h2>
+        javascriptillä tehdään kun clickkaa kuvaa nii avaa pienen popup ikkunan
+        isommalla kuvalla ja auton tiedoilla
+      </h2>
     </section>
     <section id="vuokraa">
-        <h1>Vuokraa</h1>
-        <h2>tähän joku lomake dropdown valikoimalla valitsee minkä auton haluu vuokraa</h2>
+      <h1>Vuokraa</h1>
+      <div class="container">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Vuokraa auto</div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="auto">Auto</label>
+                  <select id="auto" name="auto">
+                    <option value="audi">2021 Audi A6</option>
+                    <option value="bmw">2021 BMW 5 Series</option>
+                    <option value="genesis">2021-Genesis-G80</option>
+                    <option value="lexus">2021 Lexus ES350</option>
+                    <option value="benz">2021 Mercedes Benz E450</option>
+                    <option value="volvo">2021 Volvo S90</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="control-label">Nouto Kaupunki</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="lname"
+                    id="lname"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="control-label">Palautus Kaupunki</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="control-label">Nouto Aika</label>
+                  <div class="input-group date" id="datetimepicker1">
+                    <input type="text" class="form-control"/>
+                    <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                  </div>
+                </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="control-label">Palautus Aika</label>
+                  <div class="input-group date" id="datetimepicker2">
+                    <input type="text" class="form-control"/>
+                    <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Submit" />
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
-        <h2>footer tänne</h2>
+      <h2>footer tänne</h2>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="scripts/scripts.js"></script>
   </body>
 </html>
