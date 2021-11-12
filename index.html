@@ -27,14 +27,19 @@
     <section id="autot">
       <h1>Autot</h1>
       <section class="gallery">
-        <figure><img src="/images/2021-audi-a6.png" alt="" /></figure>
-        <figure><img src="/images/2021-BMW-5-Series.png" alt="" /></figure>
-        <figure><img src="/images/2021-Genesis-G80.png" alt="" /></figure>
-        <figure><img src="/images/2021-lexus-es350.png" alt="" /></figure>
+        <figure><img src="/images/2021-audi-a6.png" alt="" onclick="audi();" id="audi"/></figure>
+        <figure><img src="/images/2021-BMW-5-Series.png" alt="" onclick="bmw();" id="bmw"/></figure>
+        <figure><img src="/images/2021-Genesis-G80.png" alt="" onclick="genesis();" id="genesis"/></figure>
+        <figure><img src="/images/2021-lexus-es350.png" alt="" onclick="lexus();" id="lexus"/></figure>
         <figure>
-          <img src="/images/2021-mercedes-benz-e-450.png" alt="" />
+          <img src="/images/2021-mercedes-benz-e-450.png" alt="" onclick="benz();" id="benz"/>
         </figure>
-        <figure><img src="/images/2021-volvo-s90.jpg" alt="" /></figure>
+        <figure><img src="/images/2021-volvo-s90.jpg" alt="" onclick="volvo();" id="volvo"/></figure>
+      </section>
+      <h3 id="detail">Klikkaa auton kuvaa avaaksee tietoja!</h3>
+      <section id="autoinfo">
+        <h1 id="autonnimi">Auton nimi</h1>
+        <p id="autoinfot">auton tietoja</p>
       </section>
     </section>
     <section id="vuokraa">
