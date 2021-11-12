@@ -13,10 +13,9 @@
     <header>
       <ul id="nav">
         <figure><img id="logo" src="/images/logo.png" alt="" /></figure>
-        <li>Koti</li>
-        <li>Autot</li>
-        <li>Vuokraa</li>
-        <li>Ota yhteyttä</li>
+        <li><a href="#intro">Koti</a> </li>
+        <li><a href="#autot">Autot</a></li>
+        <li><a href="#vuokraa">Vuokraa</a></li>
       </ul>
     </header>
     <section id="intro">
@@ -37,10 +36,6 @@
         </figure>
         <figure><img src="/images/2021-volvo-s90.jpg" alt="" /></figure>
       </section>
-      <h2>
-        javascriptillä tehdään kun clickkaa kuvaa nii avaa pienen popup ikkunan
-        isommalla kuvalla ja auton tiedoilla
-      </h2>
     </section>
     <section id="vuokraa">
       <h1>Vuokraa</h1>
@@ -100,7 +95,7 @@
                 <div class="form-group">
                   <label class="control-label">Palautus Aika</label>
                   <div class="input-group date" id="datetimepicker2">
-                    <input type="text" class="form-control"/>
+                    <input type="text" class="form-control" id="date2"/>
                     <span class="input-group-addon">
                       <span class="glyphicon glyphicon-calendar"></span>
                     </span>
@@ -108,7 +103,7 @@
                 </div>
               </div>
             </div>
-            <input type="submit" class="btn btn-primary" value="Submit" />
+            <input type="submit" class="btn btn-primary" value="Lähetä" />
           </div>
         </div>
       </div>
@@ -121,7 +116,7 @@
         <img src="./images/yt.png" alt="youtube logo">
         <img src="./images/fb.png" alt="facebook logo">
       </figure>
-      <p> &copy; 2021 Rent-a-Car</p></footer>
+      <p style="margin-top: 1rem"> &copy; 2021 Rent-a-Car</p> <p>info@rent-a-car.com</p></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
