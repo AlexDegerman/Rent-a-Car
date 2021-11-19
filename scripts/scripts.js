@@ -1,139 +1,78 @@
 $(function () {
-  $('#datetimepicker1').datetimepicker();
+  $("#datetimepicker1").datetimepicker();
 });
 $(function () {
-  $('#datetimepicker2').datetimepicker();
+  $("#datetimepicker2").datetimepicker();
 });
-
 function audi() {
-  var nimi = document.getElementById("autonnimi");
-  var info = document.getElementById("autoinfot");
-  var detail = document.getElementById("detail");
-  var klass = document.getElementById("autoinfo");
-  var bmw = document.getElementById("bmw");
-  var genesis = document.getElementById("genesis");
-  var lexus = document.getElementById("lexus");
-  var benz = document.getElementById("benz");
-  var volvo = document.getElementById("volvo");
-  var audi = document.getElementById("audi");
-  audi.style = "opacity: 100%"
-  bmw.style = "opacity: 50%"
-  genesis.style = "opacity: 50%"
-  lexus.style = "opacity: 50%"
-  benz.style = "opacity: 50%"
-  volvo.style = "opacity: 50%"
-  detail.style = "display: none"
-  klass.style = "display: block"
-  nimi.innerHTML = "2021 Audi A6";
-  info.innerHTML = "infoa"
+  var nimi = document.getElementById("autonnimi").innerHTML = "2021 Audi A6";;
+  var info = document.getElementById("autoinfot").innerHTML = "infoa";
+  var detail = document.getElementById("detail").style = "display: none";
+  var klass = document.getElementById("autoinfo").style = "display: block";
+  var bmw = document.getElementById("bmw").style = "opacity: 50%";
+  var genesis = document.getElementById("genesis").style = "opacity: 50%";
+  var lexus = document.getElementById("lexus").style = "opacity: 50%";
+  var benz = document.getElementById("benz").style = "opacity: 50%";
+  var volvo = document.getElementById("volvo").style = "opacity: 50%";
+  var audi = document.getElementById("audi").style = "opacity: 100%";
 }
 function bmw() {
-  var nimi = document.getElementById("autonnimi");
-  var info = document.getElementById("autoinfot");
-  var detail = document.getElementById("detail");
-  var klass = document.getElementById("autoinfo");
-  var audi = document.getElementById("audi");
-  var genesis = document.getElementById("genesis");
-  var lexus = document.getElementById("lexus");
-  var benz = document.getElementById("benz");
-  var volvo = document.getElementById("volvo");
-  var bmw = document.getElementById("bmw");
-  bmw.style = "opacity: 100%"
-  audi.style = "opacity: 50%"
-  genesis.style = "opacity: 50%"
-  lexus.style = "opacity: 50%"
-  benz.style = "opacity: 50%"
-  volvo.style = "opacity: 50%"
-  detail.style = "display: none"
-  klass.style = "display: block"
-  nimi.innerHTML = "2021 BMW 5 Series";
-  info.innerHTML = "infoa"
+  var nimi = document.getElementById("autonnimi").innerHTML = "2021 BMW 5 Series";;
+  var info = document.getElementById("autoinfot").innerHTML = "infoa";
+  var detail = document.getElementById("detail").style = "display: none";
+  var klass = document.getElementById("autoinfo").style = "display: block";
+  var bmw = document.getElementById("bmw").style = "opacity: 100%%";
+  var genesis = document.getElementById("genesis").style = "opacity: 50%";
+  var lexus = document.getElementById("lexus").style = "opacity: 50%";
+  var benz = document.getElementById("benz").style = "opacity: 50%";
+  var volvo = document.getElementById("volvo").style = "opacity: 50%";
+  var audi = document.getElementById("audi").style = "opacity: 50%";
 }
 function genesis() {
-  var nimi = document.getElementById("autonnimi");
-  var info = document.getElementById("autoinfot");
-  var detail = document.getElementById("detail");
-  var klass = document.getElementById("autoinfo");
-  var bmw = document.getElementById("bmw");
-  var audi = document.getElementById("audi");
-  var lexus = document.getElementById("lexus");
-  var benz = document.getElementById("benz");
-  var volvo = document.getElementById("volvo");
-  var genesis = document.getElementById("genesis");
-  genesis.style = "opacity: 100%"
-  bmw.style = "opacity: 50%"
-  audi.style = "opacity: 50%"
-  lexus.style = "opacity: 50%"
-  benz.style = "opacity: 50%"
-  volvo.style = "opacity: 50%"
-  detail.style = "display: none"
-  klass.style = "display: block"
-  nimi.innerHTML = "2021 Genesis G80";
-  info.innerHTML = "infoa"
+  var nimi = document.getElementById("autonnimi").innerHTML = "2021 Genesis G80";;
+  var info = document.getElementById("autoinfot").innerHTML = "infoa";
+  var detail = document.getElementById("detail").style = "visibility: hidden";
+  var klass = document.getElementById("autoinfo").style = "display: block";
+  var bmw = document.getElementById("bmw").style = "opacity: 50%";
+  var genesis = document.getElementById("genesis").style = "opacity: 100%";
+  var lexus = document.getElementById("lexus").style = "opacity: 50%";
+  var benz = document.getElementById("benz").style = "opacity: 50%";
+  var volvo = document.getElementById("volvo").style = "opacity: 50%";
+  var audi = document.getElementById("audi").style = "opacity: 50%";
 }
 function lexus() {
-  var nimi = document.getElementById("autonnimi");
-  var info = document.getElementById("autoinfot");
-  var detail = document.getElementById("detail");
-  var klass = document.getElementById("autoinfo");
-  var bmw = document.getElementById("bmw");
-  var genesis = document.getElementById("genesis");
-  var audi = document.getElementById("audi");
-  var benz = document.getElementById("benz");
-  var volvo = document.getElementById("volvo");
-  var lexus = document.getElementById("lexus");
-  lexus.style = "opacity: 100%"
-  bmw.style = "opacity: 50%"
-  genesis.style = "opacity: 50%"
-  audi.style = "opacity: 50%"
-  benz.style = "opacity: 50%"
-  volvo.style = "opacity: 50%"
-  detail.style = "display: none"
-  klass.style = "display: block"
-  nimi.innerHTML = "2021 Lexus ES350";
-  info.innerHTML = "infoa"
+  var nimi = document.getElementById("autonnimi").innerHTML = "2021 Lexus ES350";;
+  var info = document.getElementById("autoinfot").innerHTML = "infoa";
+  var detail = document.getElementById("detail").style = "display: none";
+  var klass = document.getElementById("autoinfo").style = "display: block";
+  var bmw = document.getElementById("bmw").style = "opacity: 50%";
+  var genesis = document.getElementById("genesis").style = "opacity: 50%";
+  var lexus = document.getElementById("lexus").style = "opacity: 100%";
+  var benz = document.getElementById("benz").style = "opacity: 50%";
+  var volvo = document.getElementById("volvo").style = "opacity: 50%";
+  var audi = document.getElementById("audi").style = "opacity: 50%";
 }
 function benz() {
-  var nimi = document.getElementById("autonnimi");
-  var info = document.getElementById("autoinfot");
-  var detail = document.getElementById("detail");
-  var klass = document.getElementById("autoinfo");
-  var bmw = document.getElementById("bmw");
-  var genesis = document.getElementById("genesis");
-  var lexus = document.getElementById("lexus");
-  var audi = document.getElementById("audi");
-  var volvo = document.getElementById("volvo");
-  var benz = document.getElementById("benz");
-  bmw.style = "opacity: 50%"
-  genesis.style = "opacity: 50%"
-  lexus.style = "opacity: 50%"
-  audi.style = "opacity: 50%"
-  volvo.style = "opacity: 50%"
-  detail.style = "display: none"
-  klass.style = "display: block"
-  nimi.innerHTML = "2021 Mercedes Benz E450";
-  info.innerHTML = "infoa"
-  benz.style = "opacity: 100%"
+  var nimi = document.getElementById("autonnimi").innerHTML = "2021 Mercedes Benz E450";;
+  var info = document.getElementById("autoinfot").innerHTML = "infoa";
+  var detail = document.getElementById("detail").style = "display: none";
+  var klass = document.getElementById("autoinfo").style = "display: block";
+  var bmw = document.getElementById("bmw").style = "opacity: 50%";
+  var genesis = document.getElementById("genesis").style = "opacity: 50%";
+  var lexus = document.getElementById("lexus").style = "opacity: 50%";
+  var benz = document.getElementById("benz").style = "opacity: 100%";
+  var volvo = document.getElementById("volvo").style = "opacity: 50%";
+  var audi = document.getElementById("audi").style = "opacity: 50%";
 }
 function volvo() {
-  var nimi = document.getElementById("autonnimi");
-  var info = document.getElementById("autoinfot");
-  var detail = document.getElementById("detail");
-  var klass = document.getElementById("autoinfo");
-  var bmw = document.getElementById("bmw");
-  var genesis = document.getElementById("genesis");
-  var lexus = document.getElementById("lexus");
-  var benz = document.getElementById("benz");
-  var audi = document.getElementById("audi");
-  var volvo = document.getElementById("volvo");
-  bmw.style = "opacity: 50%"
-  genesis.style = "opacity: 50%"
-  lexus.style = "opacity: 50%"
-  benz.style = "opacity: 50%"
-  audi.style = "opacity: 50%"
-  detail.style = "display: none"
-  klass.style = "display: block"
-  nimi.innerHTML = "2021 Volvo S90";
-  info.innerHTML = "infoa"
-  volvo.style = "opacity: 100%"
+  var nimi = document.getElementById("autonnimi").innerHTML = "2021 Volvo S90";;
+  var info = document.getElementById("autoinfot").innerHTML = "infoa";
+  var detail = document.getElementById("detail").style = "display: none";
+  var klass = document.getElementById("autoinfo").style = "display: block";
+  var bmw = document.getElementById("bmw").style = "opacity: 50%";
+  var genesis = document.getElementById("genesis").style = "opacity: 50%";
+  var lexus = document.getElementById("lexus").style = "opacity: 50%";
+  var benz = document.getElementById("benz").style = "opacity: 50%";
+  var volvo = document.getElementById("volvo").style = "opacity: 100%";
+  var audi = document.getElementById("audi").style = "opacity: 50%";
 }
