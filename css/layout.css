@@ -38,6 +38,7 @@ body {
 }
 #autot {
 margin-left: 2.5rem;
+margin-right: 2.5rem;
 }
 .box {
   color: #fff;
@@ -77,6 +78,9 @@ footer {
   background-color: black;
   color: white;
   bottom: 0;
+}
+footer p {
+  margin-top: 1rem
 }
 #logo2 {
   width: 150px;
