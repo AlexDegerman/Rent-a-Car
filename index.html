@@ -32,6 +32,63 @@
     </section>
   </section>
 
+  <form>
+    <label for="enimi">Etunimi:</label><br>
+    <input type="text" id="enimi" name="enimi"><br>
+    <label for="snimi">Sukunimi:</label><br>
+    <input type="text" id="snimi" name="snimi"><br>
+    <label for="puhnu">Puhelin:</label><br>
+    <input type="tel" id="puhnu" name="puhnu"><br>
+    <label for="sposti">Sähköposti:</label><br>
+    <input type="email" id="sposti" name="sposti"><br>
+   
+    <label for="noutop">Nouto:</label><br>
+    <select name="noutop" id="noutop">
+      <option value="Espoo">Espoo</option>
+      <option value="Helsinki">Helsinki</option>
+      <option value="Kauniainen">Kauniainen</option>
+      <option value="Kuopio">Kuopio</option>
+      <option value="Oulu">Oulu</option>
+      <option value="Rovaniemi">Rovaniemi</option>
+      <option value="Tampere">Tampere</option>
+      <option value="Turku">Turku</option>
+      <option value="Vantaa">Vantaa</option>
+    </select>
+
+    <label for="npvm"></label>
+    <input type="date" id="npvm" name="npvm">
+    <label for="naika"></label>
+    <input type="time" id="naika" name="naika"><br>
+
+    <label for="palautusp">Palautus:</label><br>
+    <select name="palautusp" id="palautusp">
+      <option value="Espoo">Espoo</option>
+      <option value="Helsinki">Helsinki</option>
+      <option value="Kauniainen">Kauniainen</option>
+      <option value="Kuopio">Kuopio</option>
+      <option value="Oulu">Oulu</option>
+      <option value="Rovaniemi">Rovaniemi</option>
+      <option value="Tampere">Tampere</option>
+      <option value="Turku">Turku</option>
+      <option value="Vantaa">Vantaa</option>
+    </select>
+
+    <label for="ppvm"></label>
+    <input type="date" id="ppvm" name="ppvm">
+    <label for="paika"></label>
+    <input type="time" id="paika" name="paika"><br><br>
+
+    <input type="checkbox" id="kehdot" name="kehdot" value="Käyttöehdot">
+    <label for="kehdot">Hyväksyn käyttöehdot</label><br>
+    <input type="checkbox" id="markki" name="markki" value="Markkinointi">
+    <label for="markki">Hyväksyn markkinointiviestit</label><br><br>
+
+    
+    <input type="submit" onclick="alert('Varaus lähetetty!')" value="Lähetä">
+    <input type="reset" value="Tyhjennä">
+  </form>
+
+
   <!-- Autot -->
 
   <section id="autot">
