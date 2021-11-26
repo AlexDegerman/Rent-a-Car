@@ -37,17 +37,17 @@
   <section id="vuokraus">
     <form>
       <label for="enimi">Etunimi:</label><br>
-      <input type="text" id="enimi" name="enimi" placeholder="Syötä etunimesi" size="40"><br>
+      <input type="text" id="enimi" name="enimi" placeholder="Syötä etunimesi" size="40" autocomplete="on" required><br>
       <label for="snimi">Sukunimi:</label><br>
-      <input type="text" id="snimi" name="snimi" placeholder="Syötä sukunimesi" size="40"><br>
+      <input type="text" id="snimi" name="snimi" placeholder="Syötä sukunimesi" size="40" autocomplete="on" required><br>
       <label for="puhnu">Puhelin:</label><br>
-      <input type="tel" id="puhnu" name="puhnu" placeholder="Syötä puhelinnumerosi" size="40"><br>
+      <input type="tel" id="puhnu" name="puhnu" placeholder="Syötä puhelinnumerosi" size="40" autocomplete="on" required><br>
       <label for="sposti">Sähköposti:</label><br>
-      <input type="email" id="sposti" name="sposti" placeholder="Syötä sähköpostisi" size="40"><br>
+      <input type="email" id="sposti" name="sposti" placeholder="Syötä sähköpostisi" size="40" autocomplete="on" required><br>
 
       <label for="noutop">Nouto:</label><br>
-      <select name="noutop" id="noutop">
-        <option value="Blank"></option>
+      <select name="noutop" id="noutop" required>
+        <option></option>
         <option value="Espoo">Espoo</option>
         <option value="Helsinki">Helsinki</option>
         <option value="Kauniainen">Kauniainen</option>
@@ -60,13 +60,13 @@
       </select>
 
       <label for="npvm"></label>
-      <input type="date" id="npvm" name="npvm">
+      <input type="date" id="npvm" name="npvm" required>
       <label for="naika"></label>
-      <input type="time" id="naika" name="naika"><br>
+      <input type="time" id="naika" name="naika" required><br>
 
       <label for="palautusp">Palautus:</label><br>
-      <select name="palautusp" id="palautusp">
-        <option value="Blank"></option>
+      <select name="palautusp" id="palautusp" required>
+        <option></option>
         <option value="Espoo">Espoo</option>
         <option value="Helsinki">Helsinki</option>
         <option value="Kauniainen">Kauniainen</option>
@@ -79,15 +79,15 @@
       </select>
 
       <label for="ppvm"></label>
-      <input type="date" id="ppvm" name="ppvm">
+      <input type="date" id="ppvm" name="ppvm" required>
       <label for="paika"></label>
-      <input type="time" id="paika" name="paika"><br><br>
+      <input type="time" id="paika" name="paika" required><br><br>
 
-      <input type="checkbox" id="kehdot" name="kehdot" value="Käyttöehdot">
+      <input type="checkbox" id="kehdot" name="kehdot" value="Käyttöehdot" required>
       <label for="kehdot">Hyväksyn käyttöehdot</label><br>
       <input type="checkbox" id="markki" name="markki" value="Markkinointi">
       <label for="markki">Hyväksyn markkinointiviestit</label><br><br>
-      <input type="submit" onclick="alert('Varaus lähetetty!')" value="Lähetä">
+      <input type="submit" value="Lähetä">
       <input type="reset" value="Tyhjennä">
     </form>
   </section>
