@@ -8,6 +8,8 @@ Tehtävää:
 
 -formsin siirto oikealle paikalle
 
+-formsin ulkonäön muuttaminen
+
 -värejen säätö kohdilleen
 
 -fonttejen säätö kuntoon
