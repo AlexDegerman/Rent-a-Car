@@ -8,11 +8,9 @@ Tehtävää:
 
 -formsin siirto oikealle paikalle
 
--formsin ulkonäön muuttaminen
+-formsin ulkonäön muuttaminen Peter
 
 -värejen säätö kohdilleen
-
--fonttejen säätö kuntoon
 
 -footerin ulkonäkö kuntoon
 
