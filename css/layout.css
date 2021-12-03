@@ -28,7 +28,7 @@ body {
   background-color: rgb(39, 34, 34);
 }
 #intro {
-  background-image: url(../images/auto.jpg);
+  background-image: url(../images/2021-Genesis-G80.png);
   padding: 18rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +43,8 @@ body {
   margin-right: 2.5rem;
 }
 .box {
-  color: #fff;
+  color:white;
+  font-weight: 700;
   position: relative;
   top: -180px;
   padding: 1rem;
