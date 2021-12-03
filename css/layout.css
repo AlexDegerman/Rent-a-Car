@@ -38,9 +38,47 @@ body {
   position: relative;
   margin-top: 5rem;
 }
+
+#vuokraus form {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 0;
+}
+input[type="text"],
+[type="tel"],
+[type="email"] {
+  width: 345px;
+}
+input[type="date"] {
+  width: 139px;
+}
+input[type="time"] {
+  width: 69px;
+}
+button {
+  appearance: none;
+  -webkit-appearance: none;
+
+  padding: 10px;
+  border: none;
+  background-color: #3f51b5;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 180px;
+}
+
 #autot {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+  padding-top: 80px;
+  margin-top: -80px;
 }
 .box {
   color:white;

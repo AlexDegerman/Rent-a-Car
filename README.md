@@ -2,7 +2,18 @@
 
 Ryhmä 1. koodausprojekti 1.
 
-Muutettu musta navi 
-suurennettu logoa navissa
-lisätty karuselli etusivulle
+Tehtävää:
 
+-yläpalkin ohjaus kuntoon (offset?) Jussi
+
+-formsin siirto oikealle paikalle
+
+-formsin ulkonäön muuttaminen Peter
+
+-värejen säätö kohdilleen
+
+-footerin ulkonäkö kuntoon
+
+-mobiiliversio
+
+-tiedot .json -tiedostoon
