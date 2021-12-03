@@ -66,14 +66,12 @@
 
   <section id="vuokraus">
     <form>
-      <label for="enimi">Etunimi:</label><br>
-      <input type="text" id="enimi" name="enimi" placeholder="Syötä etunimesi" autocomplete="on" required><br>
-      <label for="snimi">Sukunimi:</label><br>
-      <input type="text" id="snimi" name="snimi" placeholder="Syötä sukunimesi" autocomplete="on" required><br>
+      <label for="nimi">Nimi:</label><br>
+      <input type="text" id="nimi" name="nimi" placeholder="Syötä koko nimesi" autocomplete="on" required><br>
       <label for="puhnu">Puhelin:</label><br>
       <input type="tel" id="puhnu" name="puhnu" placeholder="Syötä puhelinnumerosi" autocomplete="on" required><br>
       <label for="sposti">Sähköposti:</label><br>
-      <input type="email" id="sposti" name="sposti" placeholder="Syötä sähköpostisi" autocomplete="on" required><br>
+      <input type="email" id="sposti" name="sposti" placeholder="Syötä sähköpostiosoitteesi" autocomplete="on" required><br>
 
       <label for="noutop">Nouto:</label><br>
       <select name="noutop" id="noutop" required>
@@ -111,13 +109,24 @@
       <label for="ppvm"></label>
       <input type="date" id="ppvm" name="ppvm" required>
       <label for="paika"></label>
-      <input type="time" id="paika" name="paika" required><br><br>
+      <input type="time" id="paika" name="paika" required><br>
+      
+      <label for="autoval">Auto:</label><br>
+      <select name="autoval" id="autoval" required>
+        <option></option>
+        <option value="Audi S6">Audi S6</option>
+        <option value="BMW 550">BMW 550</option>
+        <option value="Genesis G80">Genesis G80</option>
+        <option value="Lexus ES350">Lexus ES350</option>
+        <option value="Mercedes-Benz E450">Mercedes-Benz E450</option>
+        <option value="Volvo S90">Volvo S90</option>
+      </select><br><br>
 
       <input type="checkbox" id="kehdot" name="kehdot" value="Käyttöehdot" required>
       <label for="kehdot">Hyväksyn käyttöehdot</label><br>
       <input type="checkbox" id="markki" name="markki" value="Markkinointi">
       <label for="markki">Hyväksyn markkinointiviestit</label><br><br>
-      <button>Lähetä</button> <button>Tyhjennä</button>
+      <button>Lähetä</button><button>Tyhjennä</button>
     </form>
   </section>
 
