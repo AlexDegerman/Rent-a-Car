@@ -5,11 +5,12 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 #nav {
-  background-color: white;
+  background-color: black;
   display: flex;
   padding: 2rem 1rem 2rem 1rem;
-  color: #a8896c;
-  font-size: 20px;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -17,7 +18,8 @@ html {
   width: 100%;
 }
 #nav a {
-  color: #a8896c;
+  color: white;
+  text-decoration: none;
 }
 #nav > * {
   flex-grow: 3;
@@ -26,7 +28,7 @@ body {
   background-color: rgb(39, 34, 34);
 }
 #intro {
-  background-image: url(../images/auto.jpg);
+  background-image: url(../images/2021-Genesis-G80.png);
   padding: 18rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,7 +96,8 @@ button {
   margin-top: -80px;
 }
 .box {
-  color: #fff;
+  color:white;
+  font-weight: 700;
   position: relative;
   top: -180px;
   padding: 1rem;
@@ -106,10 +109,10 @@ h2 {
   font-size: 2rem;
 }
 #logo {
-  width: 150px;
+  width: 300px;
   margin-bottom: -3rem;
   position: relative;
-  top: -30px;
+  top: -15px;
 }
 figure img {
   max-width: 100%;
