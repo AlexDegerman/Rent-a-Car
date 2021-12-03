@@ -17,7 +17,7 @@
   <header>
     <ul id="nav">
       <figure><img id="logo" src="./images/logo.png" alt="" /></figure>
-      <li><a href="#intro">Koti</a> </li>
+      <li><a href="#top">Koti</a> </li>
       <li><a href="#vuokraus">Vuokraus</a></li>
       <li><a href="#autot">Autot</a></li>
     </ul>
@@ -67,13 +67,13 @@
   <section id="vuokraus">
     <form>
       <label for="enimi">Etunimi:</label><br>
-      <input type="text" id="enimi" name="enimi" placeholder="Syötä etunimesi" size="40" autocomplete="on" required><br>
+      <input type="text" id="enimi" name="enimi" placeholder="Syötä etunimesi" autocomplete="on" required><br>
       <label for="snimi">Sukunimi:</label><br>
-      <input type="text" id="snimi" name="snimi" placeholder="Syötä sukunimesi" size="40" autocomplete="on" required><br>
+      <input type="text" id="snimi" name="snimi" placeholder="Syötä sukunimesi" autocomplete="on" required><br>
       <label for="puhnu">Puhelin:</label><br>
-      <input type="tel" id="puhnu" name="puhnu" placeholder="Syötä puhelinnumerosi" size="40" autocomplete="on" required><br>
+      <input type="tel" id="puhnu" name="puhnu" placeholder="Syötä puhelinnumerosi" autocomplete="on" required><br>
       <label for="sposti">Sähköposti:</label><br>
-      <input type="email" id="sposti" name="sposti" placeholder="Syötä sähköpostisi" size="40" autocomplete="on" required><br>
+      <input type="email" id="sposti" name="sposti" placeholder="Syötä sähköpostisi" autocomplete="on" required><br>
 
       <label for="noutop">Nouto:</label><br>
       <select name="noutop" id="noutop" required>
@@ -117,8 +117,7 @@
       <label for="kehdot">Hyväksyn käyttöehdot</label><br>
       <input type="checkbox" id="markki" name="markki" value="Markkinointi">
       <label for="markki">Hyväksyn markkinointiviestit</label><br><br>
-      <input type="submit" value="Lähetä">
-      <input type="reset" value="Tyhjennä">
+      <button>Lähetä</button> <button>Tyhjennä</button>
     </form>
   </section>
 
