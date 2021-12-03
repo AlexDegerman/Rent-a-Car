@@ -45,30 +45,31 @@ body {
 input {
   padding: 10px;
   margin: 10px 0;
-  border-radius:10px;
+  border-radius: 10px;
   border: 0;
 }
-input[type=text], [type=tel], [type=email] {
+input[type="text"],
+[type="tel"],
+[type="email"] {
   width: 345px;
 }
-input[type=date] {
+input[type="date"] {
   width: 139px;
 }
-input[type=time] {
+input[type="time"] {
   width: 69px;
 }
-
 button {
-  appearance:none;
-  -webkit-appearance:none;
+  appearance: none;
+  -webkit-appearance: none;
 
-  padding:10px;
-  border:none;
-  background-color:#3F51B5;
-  color:#fff;
-  font-weight:600;
-  border-radius:5px;
-  width:180px;
+  padding: 10px;
+  border: none;
+  background-color: #3f51b5;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 180px;
 }
 
 #autot {
