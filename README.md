@@ -17,3 +17,5 @@ Tehtävää:
 -footerin ulkonäkö kuntoon
 
 -mobiiliversio
+
+-tiedot .json -tiedostoon
