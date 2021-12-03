@@ -4,6 +4,14 @@ html {
   color: white;
   font-family: "Noto Sans", sans-serif;
 }
+
+body {
+  background-color: rgb(39, 34, 34);
+}
+
+
+/* Yläpalkki */
+
 #nav {
   background-color: black;
   display: flex;
@@ -17,10 +25,7 @@ html {
   margin: 0;
   width: 100%;
 }
-#nav a {
-  color: white;
-  text-decoration: none;
-}
+
 #nav > * {
   flex-grow: 3;
 }
@@ -29,9 +34,21 @@ html {
   color: #ffa500;
 }
 
-body {
-  background-color: rgb(39, 34, 34);
+#nav a {
+  color: white;
+  text-decoration: none;
 }
+
+#logo {
+  width: 300px;
+  margin-bottom: -3rem;
+  position: relative;
+  top: -15px;
+}
+
+
+/* Pääosa */
+
 #intro {
   background-image: url(../images/2021-Genesis-G80.png);
   padding: 18rem;
@@ -44,10 +61,50 @@ body {
   margin-top: 5rem;
 }
 
-#vuokraus {
-  padding-top: 100px;
-  margin-top: -100px;
+.box {
+  color:white;
+  font-weight: 700;
+  position: relative;
+  top: -180px;
+  padding: 1rem;
 }
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+
+/* Autot galleria */
+
+#autot {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  grid-gap: 10px;
+}
+
+.gallery img {
+  font-size: 50%;
+  object-fit: cover;
+}
+
+
+/* Vuokraus kaavake */
 
 #vuokraus form {
   margin: 2rem;
@@ -64,6 +121,7 @@ input[type="text"], [type="tel"], [type="email"] {
   border: 0;
   width: 22rem;
 }
+
 input, [id="noutop"], [id="palautusp"] {
   padding: 10px;
   margin: 10px 0;
@@ -71,12 +129,15 @@ input, [id="noutop"], [id="palautusp"] {
   border: 0;
   width: 7.3rem;
 }
+
 input[type="date"] {
   width: 8.6rem;
 }
+
 input[type="time"] {
   width: 4.2rem;
 }
+
 input, [id="autoval"] {
   padding: 10px;
   margin: 10px 0;
@@ -84,9 +145,11 @@ input, [id="autoval"] {
   border: 0;
   width: 23rem;
 }
+
 input[type="checkbox"] {
   width: 1rem;
 }
+
 button {
   appearance: none;
   -webkit-appearance: none;
@@ -101,44 +164,9 @@ button {
   width: 11.2rem;
 }
 
-#autot {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-  padding-top: 100px;
-  margin-top: -100px;
-}
-.box {
-  color:white;
-  font-weight: 700;
-  position: relative;
-  top: -180px;
-  padding: 1rem;
-}
-h1 {
-  font-size: 3rem;
-}
-h2 {
-  font-size: 2rem;
-}
-#logo {
-  width: 300px;
-  margin-bottom: -3rem;
-  position: relative;
-  top: -15px;
-}
-figure img {
-  max-width: 100%;
-}
-.gallery {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: 2fr 2fr;
-  grid-gap: 10px;
-}
-.gallery img {
-  font-size: 50%;
-  object-fit: cover;
-}
+
+/* Footeri */
+
 footer {
   margin-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -148,19 +176,7 @@ footer {
   bottom: 0;
   width: 100%
 }
-footer p {
-  margin-top: 1rem;
-}
+
 #logo2 {
   width: 150px;
-}
-#date2 {
-  width: 400px;
-  margin-left: -1.3rem;
-}
-.btn-primary {
-  margin-left: 2rem;
-}
-#autoinfo {
-  display: none;
 }
