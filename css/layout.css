@@ -36,6 +36,15 @@ body {
   position: relative;
   margin-top: 5rem;
 }
+
+#vuokraus form {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 20rem;
+}
+
 #autot {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
