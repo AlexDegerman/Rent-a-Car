@@ -24,6 +24,11 @@ html {
 #nav > * {
   flex-grow: 3;
 }
+
+#nav :hover {
+  color: #ffa500;
+}
+
 body {
   background-color: rgb(39, 34, 34);
 }
