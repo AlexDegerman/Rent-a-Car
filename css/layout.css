@@ -43,7 +43,7 @@ body {
   margin: 2rem;
   padding: 2rem;
   border-radius: 1rem;
-  width: 100%;
+  width: 23.2rem;
   background-color: black;
 }
 
@@ -75,7 +75,7 @@ input, [id="autoval"] {
   width: 23rem;
 }
 input[type="checkbox"] {
-  width: 3%;
+  width: 1rem;
 }
 button {
   appearance: none;
@@ -88,7 +88,7 @@ button {
   color: #fff;
   font-weight: 600;
   border-radius: 5px;
-  width: 11.4rem;
+  width: 11.2rem;
 }
 
 #autot {
