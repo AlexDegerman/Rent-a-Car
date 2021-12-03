@@ -11,3 +11,5 @@ Tehtävää:
 -värejen säätö kohdilleen
 
 -fonttejen säätö kuntoon
+
+-mobiiliversio
