@@ -14,4 +14,6 @@ Tehtävää:
 
 -fonttejen säätö kuntoon
 
+-footerin ulkonäkö kuntoon
+
 -mobiiliversio
