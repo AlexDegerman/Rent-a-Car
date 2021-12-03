@@ -48,6 +48,8 @@ body {
 #autot {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+  padding-top: 80px;
+  margin-top: -80px;
 }
 .box {
   color: #fff;
