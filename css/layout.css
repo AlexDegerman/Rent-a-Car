@@ -61,16 +61,17 @@ body {
   height: auto;
   position: relative;
   margin-top: 6rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
-#vuokraus > * {
+/* #vuokraus > * {
   margin-top: 3rem;
   margin-left: 2rem;
-}
+} */
 
 #vuokraus form {
-  margin: 2rem;
+  /* margin: 2rem; */
   padding: 2rem;
   border-radius: 1rem;
   width: 23.2rem;
@@ -135,32 +136,14 @@ button {
 #vuokraus h1 {
   font-size: 3rem;
   font-weight: 700;
+  padding-left: 2rem;
 }
 
 #vuokraus h2 {
   font-size: 2rem;
   font-weight: 700;
+  padding-left: 2rem;
 }
-
-/* #intro {
-  background-image: url(../images/2021-Genesis-G80.png);
-  padding: 18rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: auto;
-  height: auto;
-  position: relative;
-  margin-top: 5rem;
-}
-
-.box {
-  color:white;
-  font-weight: 700;
-  position: relative;
-  top: -180px;
-  padding: 1rem;
-} */
 
 h1 {
   font-size: 3rem;
@@ -290,6 +273,10 @@ display: none;
 /*Mobiili muotoiltua*/
 
 @media only screen and (max-width: 426px) {
+  #vuokraus {
+    background-repeat: no-repeat;
+    background-position: left;
+  }
   .gallery {
     display: grid;
     grid-template-columns: 2fr 2fr ;
