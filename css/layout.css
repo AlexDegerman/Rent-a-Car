@@ -49,64 +49,10 @@ body {
 
 /* Pääosa */
 
-/* #intro {
-  background-image: url(../images/2021-Genesis-G80.png);
-  padding: 18rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: auto;
-  height: auto;
-  position: relative;
-  margin-top: 5rem;
-}
-
-.box {
-  color:white;
-  font-weight: 700;
-  position: relative;
-  top: -180px;
-  padding: 1rem;
-} */
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-
-/* Autot galleria */
-
-#autot {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-  padding-top: 80px;
-  margin-top: -80px;
-}
-
-figure img {
-  max-width: 100%;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: 2fr 2fr;
-  grid-gap: 10px;
-}
-
-.gallery img {
-  font-size: 50%;
-  object-fit: cover;
-}
-
 
 /* Vuokraus kaavake */
 #vuokraus {
-  background-image: url(../images/2021-Genesis-G80.png);
+  background-image: url(../images/2021-audi-a6.png);
   padding: 3rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -180,6 +126,74 @@ button {
   border-radius: 5px;
   width: 11.2rem;
 }
+
+#vuokraus h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#vuokraus h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+/* #intro {
+  background-image: url(../images/2021-Genesis-G80.png);
+  padding: 18rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.box {
+  color:white;
+  font-weight: 700;
+  position: relative;
+  top: -180px;
+  padding: 1rem;
+} */
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+
+/* Autot galleria */
+
+#autot {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  grid-gap: 10px;
+}
+
+.gallery img {
+  font-size: 50%;
+  object-fit: cover;
+}
+
+
+
 
 
 /* Footeri */
