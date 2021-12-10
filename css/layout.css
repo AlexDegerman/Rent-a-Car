@@ -211,3 +211,30 @@ footer {
 #logo2 {
   width: 150px;
 }
+
+/* arvosteluosio */
+
+#palaute1 {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bolder;
+    border-radius: 20px 20px 20px 20px;
+    padding: 1rem;
+    margin: 2rem;
+}
+.palaute2 {
+    background-color: whitesmoke;
+    color: black;
+}
+
+h6 {
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    color: black;
+}
+
+#p6 {
+
+    font-size: 3rem;
+}
