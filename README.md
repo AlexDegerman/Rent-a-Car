@@ -6,10 +6,6 @@ Tehtävää:
 
 -yläpalkin ohjaus kuntoon (offset?) Jussi
 
--formsin siirto oikealle paikalle
-
--formsin ulkonäön muuttaminen Peter
-
 -värejen säätö kohdilleen
 
 -footerin ulkonäkö kuntoon
