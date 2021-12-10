@@ -266,6 +266,7 @@ footer {
 #logo2 {
   width: 150px;
 }
+/*Table muotoiltua*/
 table, th, td {
   height: 30px;
   text-align: left;
@@ -284,4 +285,20 @@ display: none;
 }
 #autonnimi {
   padding-bottom: 1rem;
+}
+
+/*Mobiili muotoiltua*/
+
+@media only screen and (max-width: 426px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 2fr 2fr;
+    grid-gap: 10px;
+  }
+  .gallery img {
+    font-size: 70%;
+    object-fit: cover;
+  }
+
 }
