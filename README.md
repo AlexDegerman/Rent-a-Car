@@ -10,6 +10,10 @@ Tehtävää:
 
 -footerin ulkonäkö kuntoon
 
--mobiiliversio
+-tiimin esittely Peter
+
+-asiakasarvostelut Markus
+
+-mobiiliversio Jussi
 
 -tiedot .json -tiedostoon
