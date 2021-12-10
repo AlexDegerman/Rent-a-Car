@@ -45,7 +45,7 @@ body {
   top: -15px;
 }
 
-/* Pääosa / Vuokraus kaavake */
+/* Vuokraus kaavake */
 
 #vuokraus {
   background-image: url(../images/2021-audi-a6.png);
@@ -191,7 +191,33 @@ figure img {
   object-fit: cover;
 }
 
-/* arvosteluosio */
+/* Tietoa meistä */
+
+#tietoa {
+  display: flex;
+  padding: 2rem;
+}
+
+.kolumni {
+  width: 25%;
+}
+
+.kortti {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.kortti figure img {
+  background-color: white;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.tiedot {
+  padding: 1rem;
+}
+
+/* Arvostelut */
 
 #palaute1 {
   background-color: whitesmoke;
