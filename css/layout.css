@@ -49,7 +49,7 @@ body {
 
 /* Pääosa */
 
-#intro {
+/* #intro {
   background-image: url(../images/2021-Genesis-G80.png);
   padding: 18rem;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ body {
   position: relative;
   top: -180px;
   padding: 1rem;
-}
+} */
 
 h1 {
   font-size: 3rem;
@@ -105,13 +105,30 @@ figure img {
 
 
 /* Vuokraus kaavake */
+#vuokraus {
+  background-image: url(../images/2021-Genesis-G80.png);
+  padding: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-top: 6rem;
+  display: flex
+}
+
+#vuokraus > * {
+ margin-top: 3rem;
+ margin-left: 2rem
+}
 
 #vuokraus form {
   margin: 2rem;
   padding: 2rem;
   border-radius: 1rem;
   width: 23.2rem;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 input[type="text"], [type="tel"], [type="email"] {
@@ -168,7 +185,7 @@ button {
 /* Footeri */
 
 footer {
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   padding-bottom: 1.5rem;
   text-align: center;
   background-color: black;
