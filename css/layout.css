@@ -205,6 +205,10 @@ figure img {
   padding: 1rem;
 }
 
+.tiedot p {
+  padding: 0.1rem;
+}
+
 /* Arvostelut */
 
 #palautteet {
