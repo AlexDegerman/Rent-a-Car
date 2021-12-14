@@ -158,8 +158,8 @@ h2 {
 #autot {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
-  padding-top: 80px;
-  margin-top: -80px;
+  padding-top: 200px;
+  margin-top: -200px;
 }
 
 figure img {
@@ -183,6 +183,8 @@ figure img {
 #tietoa {
   display: flex;
   padding: 0 3rem 0 3rem;
+  padding-top: 200px;
+  margin-top: -200px;
 }
 
 .kolumni {
@@ -213,6 +215,8 @@ figure img {
 
 #palautteet {
   margin: 0 3rem 3rem 3rem;
+  padding-top: 200px;
+  margin-top: -200px;
 }
 #palaute1 {
   background-color: whitesmoke;
